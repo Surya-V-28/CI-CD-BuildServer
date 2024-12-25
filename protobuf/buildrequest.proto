@@ -1,0 +1,21 @@
+syntax="proto3";
+
+option go_package ="buildingapp/common/buildrequest";
+
+service BuildRequestService {
+    rpc CreateBuildRequestMethod(CreateBuildRequest) returns (CreateBuildRespone){}
+}
+
+message CreateBuildRequest {
+    string gitUrl=1;
+    string gitBranch =2;
+    string currentUser =3;
+    string Owner =4;
+    bool publicRepo = 5;
+    string AppFrameWork = 6;
+       
+}
+
+message CreateBuildRespone {
+    string status =1;
+}
