@@ -1,4 +1,4 @@
-module buildingapp
+module github.com/Surya-V-28/CI-CD-BuildServer
 
 go 1.23.4
 

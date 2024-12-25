@@ -1,6 +1,6 @@
 syntax="proto3";
 
-option go_package ="buildingapp/common/buildrequest";
+option go_package ="github.com/Surya-V-28/CI-CD-BuildServer/services/common/buildrequest";
 
 service BuildRequestService {
     rpc CreateBuildRequestMethod(CreateBuildRequest) returns (CreateBuildRespone){}

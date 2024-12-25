@@ -1,11 +1,11 @@
 package main
 
 import (
-	pb "buildingapp/services/common/buildrequest"
 	"context"
 	"log"
 	"net"
 
+	pb "github.com/Surya-V-28/CI-CD-BuildServer/services/common/buildrequest"
 	"google.golang.org/grpc"
 )
 
